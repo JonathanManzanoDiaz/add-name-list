@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin: 12px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+ul li {
+  border: 1px solid black;
+  width: 250px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+}
+
+.list-input {
+  margin-top: 2rem;
+  width: 250px;
+  height: 35px;
+  outline: none;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.list-input::-moz-placeholder {
+  text-align: center;
+}
+
+.list-input::placeholder {
+  text-align: center;
+}
+
+.list-input:focus {
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.addBtn {
+  width: 120px;
+  height: 30px;
+  margin-top: 0.8rem;
+  background-color: whitesmoke;
+  color: darkviolet;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 0 6px darkblue;
+}/*# sourceMappingURL=style.css.map */
